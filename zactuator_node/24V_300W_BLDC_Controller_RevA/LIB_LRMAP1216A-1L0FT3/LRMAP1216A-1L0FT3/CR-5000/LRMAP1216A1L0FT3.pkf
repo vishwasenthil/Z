@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LRMAP1216A1L0FT3"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LRMAP1216A1L0FT3")
+        (spec "default")
+    )
+)

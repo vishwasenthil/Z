@@ -1,0 +1,116 @@
+
+(EDIF
+  (rename &LRMAP1216A_1L0FT3 "LRMAP1216A_1L0FT3")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2026 10 11 19 37 44)
+      (dataOrigin "20656793/2193384/2.50/4/3/Resistor")
+      (program "SamacSys ECAD Model LRMAP1216A_1L0FT3"
+        (version "1.3"))))
+  (library
+  (rename &LRMAP1216A_1L0FT3 "LRMAP1216A_1L0FT3")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &LRMAP1216A_1L0FT3 "LRMAP1216A_1L0FT3")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "R")
+          (property (rename PACKAGENAME "PackageName") (string "LRMAP1216A_1L0FT3"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "LRMAP1216A1L0FT3"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string ""))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string ""))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "TT Electronics"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "LRMAP1216A-1L0FT3"))
+          (property (rename &Description "Description") (string "SMD Current Sense Resistor, 0.001 ohm, LRMAP1216 Series, 1216 [3038 Metric], 3 W, +/- 1percent , -65C to +170C"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/LRMAP1216.pdf"))
+          (property (rename &Height "Height") (string "2 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "LRMAP1216A_1L0FT3"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &VSENSE_1 "VSENSE_1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &CURRENT_1 "CURRENT_1")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &CURRENT_2 "CURRENT_2")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &VSENSE_2 "VSENSE_2")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &VSENSE_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &CURRENT_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &CURRENT_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1200 -200) (pt 1400 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 1400 -200))))
+            )
+            (portImplementation
+              (name &VSENSE_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1200 -100) (pt 1400 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 1400 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 1200 0)
+                  (pt 1200 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1250 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1250 30))))
+          )
+        )
+      )
+    )
+  )
+)

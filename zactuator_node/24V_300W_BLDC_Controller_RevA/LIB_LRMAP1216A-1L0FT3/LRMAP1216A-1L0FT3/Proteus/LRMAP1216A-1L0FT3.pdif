@@ -1,0 +1,114 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LRMAP1216A-1L0FT3"
+   (description "SMD Current Sense Resistor, 0.001 ohm, LRMAP1216 Series, 1216 [3038 Metric], 3 W, +/- 1% , -65C to +170C")
+   (family "RES")
+   (package "LRMAP1216A1L0FT3")
+   (attribute "Datasheet Link" "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/LRMAP1216.pdf")
+   (attribute "Geometry.Height" "2mm")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Manufacturer_Name" "TT Electronics")
+   (attribute "Manufacturer_Part_Number" "LRMAP1216A-1L0FT3")
+   (gate
+    (symbol "LRMAP1216A-1L0FT3")
+    (pin "VSENSE_1" 1 PS)
+    (pin "CURRENT_1" 2 PS)
+    (pin "CURRENT_2" 3 PS)
+    (pin "VSENSE_2" 4 PS)
+   )
+  )
+  (symbol "LRMAP1216A-1L0FT3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1400 100) (pt 1400 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LRMAP1216A1L0FT3"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.5 2)
+      (pt 1.5 2)
+      (pt 1.5 -2)
+      (pt -1.5 -2)
+      (pt -1.5 2))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.8 3.075)
+      (pt 2.8 3.075)
+      (pt 2.8 -3.075)
+      (pt -2.8 -3.075)
+      (pt -2.8 3.075))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.05 2.5)
+      (arc (pt -1.050 2.500) (pt -1.100 2.500) (pt -1.000 2.600) (start 180.0) (sweep -90.0))
+      (pt -1.05 2.6)
+      (arc (pt -1.050 2.600) (pt -1.100 2.500) (pt -1.000 2.600) (start 180.0) (sweep 90.0))
+      (pt -1.05 2.5))))
+   (leg 1 (pt -1.050 1.725) (padstack 0))
+   (leg 2 (pt -1.050 -0.600) (padstack 2))
+   (leg 3 (pt 1.050 -0.600) (padstack 3))
+   (leg 4 (pt 1.050 1.725) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.700 1.500 0 0 0.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 1.500 2.950 0 0 90.000))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 1.500 2.950 0 0 90.000))
+   )
+   (model "LRMAP1216A-1L0FT3.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XPH4R714MC_L1XHQ'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Toshiba", "XPH4R714MC,L1XHQ" (!) = "", "XPH4R714MC", "Other", "757-XPH4R714MC,L1XHQ", "https://www.mouser.co.uk/ProductDetail/Toshiba/XPH4R714MCL1XHQ?qs=7MVldsJ5Uay5UfLPuZnPLQ%3D%3D", "MOSFET 132W 1MHz Automotive; AEC-Q101", "https://toshiba.semicon-storage.com/info/docget.jsp?did=66018&prodName=XPH4R714MC"
+END_PART
+
+END.

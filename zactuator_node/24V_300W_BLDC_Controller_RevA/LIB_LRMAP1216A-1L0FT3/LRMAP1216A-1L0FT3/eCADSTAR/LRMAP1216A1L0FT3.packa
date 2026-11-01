@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LRMAP1216A-1L0FT3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-07-02-05:25:32)
+    (mountForm default
+        (footprintRef "LRMAP1216A1L0FT3")
+        (spec "System")
+    )
+)

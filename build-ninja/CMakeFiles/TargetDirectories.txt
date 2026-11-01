@@ -1,0 +1,14 @@
+C:/Users/vishw/dev/Z/build-ninja/CMakeFiles/edit_cache.dir
+C:/Users/vishw/dev/Z/build-ninja/CMakeFiles/rebuild_cache.dir
+C:/Users/vishw/dev/Z/build-ninja/platform/stm32g4/CMakeFiles/HAL_LIB.dir
+C:/Users/vishw/dev/Z/build-ninja/platform/stm32g4/CMakeFiles/STM32G4_PLATFORM.dir
+C:/Users/vishw/dev/Z/build-ninja/platform/stm32g4/CMakeFiles/edit_cache.dir
+C:/Users/vishw/dev/Z/build-ninja/platform/stm32g4/CMakeFiles/rebuild_cache.dir
+C:/Users/vishw/dev/Z/build-ninja/lib/CMSIS_DSP/CMakeFiles/DSP_LIB.dir
+C:/Users/vishw/dev/Z/build-ninja/lib/CMSIS_DSP/CMakeFiles/edit_cache.dir
+C:/Users/vishw/dev/Z/build-ninja/lib/CMSIS_DSP/CMakeFiles/rebuild_cache.dir
+C:/Users/vishw/dev/Z/build-ninja/zactuator_node/CMakeFiles/zactuator_desktop.dir
+C:/Users/vishw/dev/Z/build-ninja/zactuator_node/CMakeFiles/zactuator_firmware.dir
+C:/Users/vishw/dev/Z/build-ninja/zactuator_node/CMakeFiles/flash.dir
+C:/Users/vishw/dev/Z/build-ninja/zactuator_node/CMakeFiles/edit_cache.dir
+C:/Users/vishw/dev/Z/build-ninja/zactuator_node/CMakeFiles/rebuild_cache.dir

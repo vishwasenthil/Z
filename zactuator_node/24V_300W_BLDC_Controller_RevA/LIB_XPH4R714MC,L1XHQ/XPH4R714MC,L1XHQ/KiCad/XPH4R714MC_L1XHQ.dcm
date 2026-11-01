@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XPH4R714MC,L1XHQ
+D MOSFET 132W 1MHz Automotive; AEC-Q101
+K
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=66018&prodName=XPH4R714MC
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XPH4R714MC_L1XHQ"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-09-09-09:46:43)
+    (mountForm default
+        (footprintRef "XPH4R714MC")
+        (spec "System")
+    )
+)

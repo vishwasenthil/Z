@@ -1,0 +1,9 @@
+Manufacturer=Toshiba
+PartNumber=XPH4R714MC,L1XHQ
+PartCategory=MOSFET (P-Channel)
+PackageCategory=Other
+PinCount=9
+Version=1.1
+Released=2023-09-09 09:46:43
+Downloaded=2026-10-30 21:19:13
+3D=Y

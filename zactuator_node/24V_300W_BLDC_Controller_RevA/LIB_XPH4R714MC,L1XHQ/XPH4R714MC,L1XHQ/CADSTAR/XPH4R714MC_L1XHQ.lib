@@ -1,0 +1,16 @@
+.XPH4R714MC_L1XHQ :1 ;MOSFET 132W 1MHz Automotive; AEC-Q101
+XPH4R714MC
+*STM Q
+*NGS
+*PLB 1="S_1" 2="S_2" 3="S_3" 4="G" 5="D_1" 6="D_2" 7="D_3" 8="D_4" 9="D_5"
+*MXP 9
+*DFN XPH4R714MC_L1XHQ
+~!Mouser Part Number (757-XPH4R714MC,L1XHQ)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Toshiba/XPH4R714MCL1XHQ?qs=7MVldsJ5Uay5UfLPuZnPLQ%3D%3D)
+~!Manufacturer_Name (Toshiba)
+~!Manufacturer_Part_Number (XPH4R714MC,L1XHQ)
+~!Link Datasheet (https://toshiba.semicon-storage.com/info/docget.jsp?did=66018&prodName=XPH4R714MC)
+~!Height (-)
+~!3D_Model (XPH4R714MC,L1XHQ)
+XPH4R714MC_L1XHQ
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 
